@@ -4,8 +4,8 @@
         "track": "God save the Rave"
     },
     "1": {
-        "quote": "I am the captain, my name is Dave",
-        "track": "God save the Rave"
+        "quote": "But now it's Scooter! Who are supa dupa!",
+        "track": "Posse"
     },
     "2": {
         "quote": "How much is the fish?",
@@ -82,5 +82,21 @@
     "20": {
         "quote": "To jump or not to jump That is the question",
         "track": "Bora, Bora, Bora"
+    },
+    "21": {
+        "quote": "Alfi Hardkor",
+        "track": "One (Always Hardcore)"
+    },
+    "22": {
+        "quote": "The Question is What is the Question",
+        "track": "The Question is What is the Question"
+    },
+    "23": {
+        "quote": "Hyper Hyper",
+        "track": "Hyper Hyper"
+    },
+    "24": {
+        "quote": "Here comes the chicks Terminator",
+        "track": "Weekend"
     }
 }
