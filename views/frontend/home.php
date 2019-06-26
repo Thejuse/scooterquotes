@@ -78,8 +78,12 @@
             <nav>
                 <ul>
                     <li><a href="https://github.com/Thejuse/scooterquotes/" rel="noopener noreferrer" title="Github"><i class="fab fa-github"></i> Github</a></li>
-                    <li><a href="<?php echo SQ_DOMAIN;?>/api/json/" target="_blank" rel="noopener noreferrer" title="JSON API">JSON API</a></li>
-                    <li><a href="<?php echo SQ_DOMAIN;?>/api/random/" target="_blank" rel="noopener noreferrer" title="Random API">Random API</a></li>
+                    <?php if(SQ_ENABLE_JSON_API == 1): ?>
+                        <li><a href="<?php echo SQ_DOMAIN;?>/api/json/" target="_blank" rel="noopener noreferrer" title="JSON API">JSON API</a></li>
+                    <?php endif; ?>
+                    <?php if(SQ_ENABLE_RANDOM_API == 1): ?>
+                        <li><a href="<?php echo SQ_DOMAIN;?>/api/random/" target="_blank" rel="noopener noreferrer" title="Random API">Random API</a></li>
+                    <?php endif; ?>
                 </ul>
             </nav>
         </div>
