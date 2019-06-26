@@ -1,0 +1,23 @@
+/*
+ *  SCSS Variables
+ *
+ *  $colorCOLORNAME -> Colors
+ *  $fontFONTNAME -> Fonts
+ *  $spacingSPACINGNAME -> Spacings
+ *  $transitionTRANSITIONNAME -> Transitions
+ */ 
+
+$colorBlack: #000000;
+$colorWhite: #ffffff;
+$colorDarkGray: #303030;
+$colorLightestGray: #f3f3f3;
+$colorBrand: #90BE6D;
+
+$fontRobotoCondensed: 'Roboto Condensed', sans-serif;
+$fontRoboto: 'Roboto', sans-serif;
+
+$spacingLarge: 100px;
+$spacingNormal: 50px;
+$spacingSmall: 25px;
+
+$transitionNormal: 0.2s linear;
