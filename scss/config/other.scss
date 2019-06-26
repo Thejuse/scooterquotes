@@ -1,0 +1,67 @@
+/*
+ *  Other Stylings & Helpers
+ */
+.display-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+	.display-table-cell {
+		display: table-cell;
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+		text-align: center;
+		&.left {
+			text-align: left;
+		}
+		&.right {
+			text-align: right;
+		}
+		&.top {
+			vertical-align: top;
+		}
+		&.bottom {
+			vertical-align: bottom;
+		}
+	}
+}
+.image-align-left {
+    img {
+        margin: 0 auto 0 0;
+        display: block;
+    }
+}
+.image-align-center {
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+.image-align-right {
+    img {
+        margin: 0 0 0 auto;
+        display: block;
+    }
+}
+.image-scale-fullwidth {
+    img {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.spacer-small {
+    display: block;
+    width: 100%;
+    margin-top: $spacingSmall;
+}
+.spacer-normal {
+    display: block;
+    width: 100%;
+    margin-top: $spacingNormal;
+}
+.spacer-large {
+    display: block;
+    width: 100%;
+    margin-top: $spacingLarge;
+}

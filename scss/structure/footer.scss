@@ -1,0 +1,27 @@
+/*
+ *  Footer stylings
+ */ 
+.footer{
+    padding: 20px 0;
+    .help{
+        nav{
+            text-align: right;
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    display: inline-block;
+                    margin: 0 10px;
+                    a{
+                        color: $colorDarkGray;
+                        transition: $transitionNormal;
+                        text-decoration: none; 
+                        &:hover{
+                            color: $colorBrand;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

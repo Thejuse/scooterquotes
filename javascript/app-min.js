@@ -1,0 +1,1 @@
+function onMouseClick(o){$(o).mousedown(function(o){switch(o.which){case 1:case 2:break;case 3:location.reload()}})}$(document).ready(function(){onMouseClick("body")});
