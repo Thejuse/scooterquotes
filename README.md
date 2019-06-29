@@ -13,7 +13,11 @@
 #### Manual Installation (FTP required)
 - Download scooterQuotes via Github
 - Go to your FTP and navigate to your root directory
-- Setup the config `config/config.php`
+- Upload files contained in `/public` into your root directory
+- Create `/config` and `/views` outside of your root directory
+- Upload files contained in `/views` into `/views` on your FTP
+- Create the config `config.php` inside `/config` on your FTP
+    - see [config.sample.php](https://github.com/Thejuse/scooterquotes/blob/master/config/config.sample.php)
 - Done
 
 ## Help supporting further development
