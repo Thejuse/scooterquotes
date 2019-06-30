@@ -26,7 +26,7 @@
 - **PayPal** Support me on [paypal.com](https://www.paypal.me/jseidlAT)
 - **BuyMeACoffee** Support me on [buymeacoffee.com](https://www.buymeacoffee.com/jseidl)
 
-## Administartion corner
+## Administration corner
 
 ### Versions and support
 
