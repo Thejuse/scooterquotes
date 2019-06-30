@@ -1,9 +1,4 @@
-<?php 
-    if(basename(__FILE__) == basename($_SERVER["SCRIPT_FILENAME"])){
-        header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
-        die();
-    }
-
+<?php
     // Your Domain for the System
     define('SQ_DOMAIN', 'https://your-domain.tld');
 
