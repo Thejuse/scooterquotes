@@ -32,7 +32,7 @@
 
 | scooterQuotes| PHP       | Support/Development                  |
 | ------------ | --------- | ------------------------------------ |
-| 1.x          | 7.0 - 7.2 | Features, Bugfixes, Security updates |
+| 1.x          | 7.0 - 7.4 | Features, Bugfixes, Security updates |
 
 ### Changelog
 
