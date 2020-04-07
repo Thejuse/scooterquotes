@@ -13,7 +13,11 @@
 #### Manual Installation (FTP required)
 - Download scooterQuotes via Github
 - Go to your FTP and navigate to your root directory
-- Setup the config `config/config.php`
+- Upload files contained in `/public` into your root directory
+- Create `/config` and `/views` outside of your root directory
+- Upload files contained in `/views` into `/views` on your FTP
+- Create the config `config.php` inside `/config` on your FTP
+    - see [config.sample.php](https://github.com/Thejuse/scooterquotes/blob/master/config/config.sample.php)
 - Done
 
 ## Help supporting further development
@@ -22,13 +26,13 @@
 - **PayPal** Support me on [paypal.com](https://www.paypal.me/jseidlAT)
 - **BuyMeACoffee** Support me on [buymeacoffee.com](https://www.buymeacoffee.com/jseidl)
 
-## Administartion corner
+## Administration corner
 
 ### Versions and support
 
 | scooterQuotes| PHP       | Support/Development                  |
 | ------------ | --------- | ------------------------------------ |
-| 1.x          | 7.0 - 7.2 | Features, Bugfixes, Security updates |
+| 1.x          | 7.0 - 7.4 | Features, Bugfixes, Security updates |
 
 ### Changelog
 
@@ -41,4 +45,4 @@ scooterquotes uses semantic versioning which basically means for you, that
 - **minor updates** (e.g. 1.0.0 => 1.1.0) includes new features and smaller tasks without breaking changes.
 - **major updates** (e.g. 1.0.0 => 2.0.0) breaking changes wich can be refactorings, features or bugfixes.
 
-&copy; 2019 [Julian Seidl](https://www.jseidl.at)
+&copy; 2019-2020 [Julian Seidl](https://www.jseidl.at)
