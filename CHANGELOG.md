@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.0] - 2020-04-07
 ### Changed
-- Changed Pahts of SCSS
+- Changed Paths of SCSS
 - Updated Year
 ### Security
 - Move sources and configuration outside of root directory
