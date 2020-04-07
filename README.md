@@ -45,4 +45,4 @@ scooterquotes uses semantic versioning which basically means for you, that
 - **minor updates** (e.g. 1.0.0 => 1.1.0) includes new features and smaller tasks without breaking changes.
 - **major updates** (e.g. 1.0.0 => 2.0.0) breaking changes wich can be refactorings, features or bugfixes.
 
-&copy; 2019 [Julian Seidl](https://www.jseidl.at)
+&copy; 2019-2020 [Julian Seidl](https://www.jseidl.at)
